@@ -1,0 +1,6 @@
+def frequency():
+    arr = list(map(int, input().split()))
+    x = int(input())
+    return arr.count(x)
+
+print(frequency())
