@@ -4,3 +4,9 @@ def frequency():
     return arr.count(x)
 
 print(frequency())
+
+# to get frequency of all elements in an array
+#arr = list(map(int, input().split()))
+
+#for i in arr:
+#    print(i, arr.count(i))
